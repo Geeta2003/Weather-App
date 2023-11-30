@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Testing App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+
+        <div class="search">
+            <input type="text" id="inp" spellcheck="true" placeholder="Enter the place name" >
+            <button class="sbtn"><img src="weather-icons/search.png" ></button>
+        </div>
+
+        <div class="weather">
+            <img src="weather-icons/mist.png" class="weatherimg">
+            <div class="tem">
+               <h1 class="cel"></h1>
+               <h3 class="city"></h3>
+            </div>
+            
+            <div class="details">
+                <div class="col">
+                    <div>
+                        <img src="weather-icons/humidity.png" class="image">
+                    </div>
+                  
+                    <div class="para">
+                        <p class="Humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                
+                </div>
+                <div class="col">
+                    <div>
+                        <img src="weather-icons/wind.png" class="image">
+                    </div>
+                   
+                    <div class="para">
+                        <p class="wind"></p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
